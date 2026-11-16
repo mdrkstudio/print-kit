@@ -4,7 +4,10 @@
 
 Автор: [Марк / MDRK Studio](https://mdrkstudio.ru).
 
-![Print Kit](docs/demo.gif)
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="docs/demo.gif">
+  <img src="docs/demo-poster.png" alt="Print Kit" width="800" height="633">
+</picture>
 
 ## Запуск
 
