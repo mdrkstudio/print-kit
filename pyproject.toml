@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "mdrk-print-kit"
+version = "0.1.0"
+description = "Printable place cards, table numbers and seating plans from CSV, JSON and XLSX"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "PolyForm-Noncommercial-1.0.0"
+authors = [{name = "MDRK Studio"}]
+[project.optional-dependencies]
+xlsx = ["openpyxl>=3.1.5,<4"]
+[project.scripts]
+print-kit = "printkit.cli:main"
+[tool.setuptools.packages.find]
+include = ["printkit*"]
